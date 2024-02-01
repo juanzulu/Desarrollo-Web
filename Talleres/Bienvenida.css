@@ -1,0 +1,117 @@
+/*si*/
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(110, 212, 212);
+}
+
+header{
+    background-color: rgb(205, 202, 198);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.286);
+    height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+h1{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 50%;
+    padding: 30px;
+}
+
+.navegar{
+    color: blue;
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* Borde de 1 píxel de grosor para las imagenes*/
+.imagenes {
+    border: 1px solid black; 
+    width: 25%;
+    float: left;
+    margin: 10px;
+}
+
+.navegar li {
+    margin-left: 90%;
+}
+
+.especial{
+    position: relative;
+    padding: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+  
+ /*Se hace para ajustar el contenedor a un 80% respecto a su padre footer.
+  El margin se utiliza para que el margen superior e inferior sean de 0 y el auto se utiliza para
+  centrar el contendeor horizontalmente */
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.footer-contenedor {
+    text-align: center;
+}
+
+.footer-contenedor h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+  
+.footer-contenedor p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+  
+
+  /* Estilos para el contenido principal */
+.main-content {
+    padding-bottom: 100px; /* Agrega un relleno en la parte inferior del contenido principal para dejar espacio para el footer */
+}
+  
+.comunicacion{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    color: #6f7270;
+}
+
+
+.comunicacion a{
+    color: blue;
+    text-decoration: none;
+}

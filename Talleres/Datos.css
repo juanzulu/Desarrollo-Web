@@ -1,0 +1,118 @@
+/*si*/
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(187, 208, 208);
+}
+
+header{
+    background-color: rgba(205, 202, 198, 0.759);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.286);
+    height: 75px;
+}
+
+h1{
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 50%;
+    padding: 30px;
+}
+
+.navegar{
+    color: blue;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed; /* O position: absolute; según lo necesites */
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+  
+ /*Se hace para ajustar el contenedor a un 80% respecto a su padre footer.
+  El margin se utiliza para que el margen superior e inferior sean de 0 y el auto se utiliza para
+  centrar el contendeor horizontalmente */
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.footer-contenedor {
+    text-align: center;
+}
+
+.footer-contenedor h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+  
+.footer-contenedor p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+  
+
+  /* Estilos para el contenido principal */
+.main-content {
+    padding-bottom: 100px; /* Agrega un relleno en la parte inferior del contenido principal para dejar espacio para el footer */
+}
+  
+.comunicacion{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    color: #6f7270;
+}
+
+
+.comunicacion a{
+    color: blue;
+    text-decoration: none;
+}
+
+/* Estilos para la tabla */
+table {
+    margin-top: 20px;
+    margin-left: 25%;
+    border-collapse: collapse; /* Fusionar los bordes de las celdas */
+    width: 50%; /* Ancho de la tabla */
+}
+
+/* Estilos para las celdas de encabezado */
+th {
+    background-color: #d87979; /* Color de fondo */
+    border: 1px solid #000000; /* Borde */
+    padding: 8px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+}
+
+/* Estilos para las celdas de datos */
+td {
+    border: 1px solid #000000; /* Borde */
+    padding: 8px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    background-color: #f9f9f9;
+}
